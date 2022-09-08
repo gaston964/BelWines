@@ -31,6 +31,9 @@ body{
     height: 450px;
     border-radius: 10px;
 }
+.main__texto{
+    text-align: justify;
+}
 .footer__nav{
     display: flex;
     flex-direction: column;
@@ -72,4 +75,13 @@ body{
 .footer__logo-img{
     width: 220px;
     height: 100px;
+}
+/* MEDIAQUERIE PARA TABLET */
+@media (min-width:576px) and (max-width: 992px){
+}
+/* MEDIAQUERIE PARA CELULAR */
+@media (min-width:320px) and (max-width: 575px){
+.ocultar{
+    display: none;
+}
 }
