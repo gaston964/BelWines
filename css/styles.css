@@ -28,7 +28,7 @@ body{
 }
 .main__img{
     width: 80%;
-    height: 450px;
+    height: 100%;
     border-radius: 10px;
 }
 .main__texto{
@@ -46,6 +46,7 @@ body{
 
 .card-titulo {
     color: rgb(255, 255, 255);
+    text-align: center;
 }
 
 .image {
