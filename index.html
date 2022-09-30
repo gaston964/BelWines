@@ -8,10 +8,12 @@
     <link rel="shortcut icon" href="./resources/favicon.ico" type="image/x-icon">
     <!-- Fuentes -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Slabo+27px&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Slabo+27px&display=swap"
+        rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <!-- CSS Bootstrap -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
     <!-- CSS -->
     <link rel="stylesheet" href="./css/styles.css">
     <title>BelWines</title>
@@ -19,13 +21,15 @@
 
 <body>
     <header>
-        <nav class="navbar navbar-expand-lg navbar-dark" >
+        <nav class="navbar navbar-expand-lg navbar-dark">
             <div class="container-fluid">
                 <a class="navbar-brand nav__logo-titulo" href="#">
                     <img class="nav__logo" src="./resources/logobel2.png" alt="logo de empresa" width="30" height="24">
                     BelWines
                 </a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse text-center" id="navbarSupportedContent">
@@ -46,7 +50,7 @@
     </header>
     <main class="container-fluid">
         <!-- Carrusel -->
-        <div id="carouselExampleCaptions" class="carousel slide container" data-bs-ride="false">
+        <!-- <div id="carouselExampleCaptions" class="carousel slide container-fluid" data-bs-ride="false">
             <div class="carousel-indicators">
                 <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
                 <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -55,22 +59,22 @@
             </div>
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img src="./resources/carrusel4.jpg" class="d-block w-100 img-fluid carrusel__img" alt="...">
+                    <img src="./resources/carrusel 4.jpg" class="d-block w-100 img-fluid carrusel__img" alt="...">
                     <div class="carousel-caption d-none d-md-block">
                     </div>
                 </div>
                 <div class="carousel-item">
-                    <img src="./resources/carrusel2.jpg" class="d-block w-100 img-fluid carrusel__img" alt="...">
+                    <img src="./resources/bodega4.jpg" class="d-block w-100 img-fluid carrusel__img" alt="...">
                     <div class="carousel-caption d-none d-md-block">
                     </div>
                 </div>
                 <div class="carousel-item">
-                    <img src="./resources/carrusel3.jpg" class="d-block w-100 img-fluid carrusel__img" alt="...">
+                    <img src="./resources/carrusel 3.jpg" class="d-block w-100 img-fluid carrusel__img" alt="...">
                     <div class="carousel-caption d-none d-md-block">
                     </div>
                 </div>
                 <div class="carousel-item">
-                    <img src="./resources/carrusel1.jpg" class="d-block w-100 img-fluid carrusel__img" alt="...">
+                    <img src="./resources/carrusel 1.jpg" class="d-block w-100 img-fluid carrusel__img" alt="...">
                     <div class="carousel-caption d-none d-md-block">
                     </div>
                 </div>
@@ -83,19 +87,52 @@
                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
                 <span class="visually-hidden">Next</span>
             </button>
-        </div>
+        </div> -->
+        <section class="justify-content-center container">
+            <div class="row">
+                <div class="column">
+                    <img src="./resources/bodega.jpg">
+                    <img src="./resources/bodega2.jpg">
+                    <img src="./resources/bodega3.jpg">
+                </div>
+                <div class="column">
+                    <img src="./resources/bodega4.jpg">
+                    <img src="./resources/bodega5.jpg">
+                    <img src="./resources/bodega2.jpg">
+                </div>
+                <div class="column">
+                    <img src="./resources/bodega7.jpg">
+                    <img src="./resources/bodega8.jpg">
+                    <img src="./resources/carrusel 4.jpg">
+                </div>
+                <div class="column">
+                    <img src="./resources/bodega4.jpg">
+                    <img src="./resources/bodega5.jpg">
+                    <img src="./resources/bodega2.jpg">
+                </div>
+            </div>
+        </section>
+        <!-- Quienes somos -->
         <section class="container-fluid row my-4">
             <article class="ocultar col-md-6 main__nos">
                 <img class="main__img img-fluid " src="./resources/sobrenos.jpg" alt="">
             </article>
             <article class="col-xs-12 col-md-6 ">
                 <h3 class="text-center text-white main__texto">Quienes Somos?</h3>
-                <p class="text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum animi, quod id voluptate ex expedita tenetur. Cupiditate nisi modi sapiente odio officia expedita temporibus sed ab! Delectus in eligendi repellat!
-                Labore quibusdam cum illum esse eos ipsam nihil quas quod, aut iste eligendi temporibus at non harum veritatis, debitis eveniet commodi incidunt maxime tenetur rerum fugiat repellat. Soluta, iusto fuga!</p>
-                <p class="text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum animi, quod id voluptate ex expedita tenetur. Cupiditate nisi modi sapiente odio officia expedita temporibus sed ab! Delectus in eligendi repellat!
-                Labore quibusdam cum illum esse eos ipsam nihil quas quod, aut iste eligendi temporibus at non harum veritatis, debitis eveniet commodi incidunt maxime tenetur rerum fugiat repellat. Soluta, iusto fuga!</p>
+                <p class="text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum animi, quod id
+                    voluptate ex expedita tenetur. Cupiditate nisi modi sapiente odio officia expedita temporibus sed
+                    ab! Delectus in eligendi repellat!
+                    Labore quibusdam cum illum esse eos ipsam nihil quas quod, aut iste eligendi temporibus at non harum
+                    veritatis, debitis eveniet commodi incidunt maxime tenetur rerum fugiat repellat. Soluta, iusto
+                    fuga!</p>
+                <p class="text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum animi, quod id
+                    voluptate ex expedita tenetur. Cupiditate nisi modi sapiente odio officia expedita temporibus sed
+                    ab! Delectus in eligendi repellat!
+                    Labore quibusdam cum illum esse eos ipsam nihil quas quod, aut iste eligendi temporibus at non harum
+                    veritatis, debitis eveniet commodi incidunt maxime tenetur rerum fugiat repellat. Soluta, iusto
+                    fuga!</p>
             </article>
-        </section>
+        </section> 
     </main>
     <footer class="container-fluid row mt-5">
         <article class="col-xs-12 col-md-4 footer__nav">
@@ -107,18 +144,25 @@
             </ul>
         </article>
         <article class="col-xs-12 col-md-4 mt-2 footer__redes">
-            <a href="https://www.instagram.com/bel.wines/" target="_blank"><img class="footer__img" src="./resources/insta.png" alt="logo instagram"> Instagram</a>
-            <a href="https://www.facebook.com/Bel-Wines-100596128357234/" target="_blank"><img class="footer__img" src="./resources/face.png" alt="logo facebook">Facebook</a>
-            <a href="#" target="_blank"><img class="footer__img" src="./resources/whatsapp.png" alt="logo whatsapp">+54 9 2617236594</a>
-            <a href="#" target="_blank"><img class="footer__img" src="./resources/gmail.png" alt="logo gmail"> belwinesmendoza@gmail.com</a>
+            <a href="https://www.instagram.com/bel.wines/" target="_blank"><img class="footer__img"
+                    src="./resources/insta.png" alt="logo instagram"> Instagram</a>
+            <a href="https://www.facebook.com/Bel-Wines-100596128357234/" target="_blank"><img class="footer__img"
+                    src="./resources/face.png" alt="logo facebook">Facebook</a>
+            <a href="#" target="_blank"><img class="footer__img" src="./resources/whatsapp.png" alt="logo whatsapp">+54
+                9 2617236594</a>
+            <a href="#" target="_blank"><img class="footer__img" src="./resources/gmail.png" alt="logo gmail">
+                belwinesmendoza@gmail.com</a>
         </article>
         <article class="col-xs-12 col-md-4 mt-4 footer__logo">
             <img class="img-fluid footer__logo-img" src="./resources/logobel.png" alt="">
         </article>
         <p class="text-center text-white mt-5">BelWines - Todos los derechos reservados. 2022</p>
     </footer>
+    <script src="./js/index.js"></script>
     <!-- JavaScript Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
