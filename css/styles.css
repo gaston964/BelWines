@@ -8,8 +8,8 @@
 font-family: 'Dancing Script', cursive;
 font-family: 'Slabo 27px', serif; */
 body {
-    background-image: url(../resources/fondo3.jpg);
-    background-repeat: repeat(3);
+    background-image: url(../resources/fondo4.jpg);
+    background-repeat: repeat;
     font-family: 'Slabo 27px', serif;
 }
 
