@@ -11,17 +11,36 @@ body {
     background-image: url(../resources/patternpad.svg);
     font-family: 'Slabo 27px', serif;
 }
-
+/*.navbar {
+    overflow: hidden;
+    background-color: rgb(0, 0, 0);
+    position:absolute;
+    z-index: 1;
+}
+/* Navbar links */
+/*.navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+}
+/* The sticky class is added to the navbar with JS when it reaches its scroll position */
+/*.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+*/
 .nav__logo-titulo {
     font-family: 'Dancing Script', cursive;
     font-size: larger;
 }
-
 .nav__logo {
     width: 50px;
     height: 50px;
 }
-
 .row {
     display: flex;
     flex-wrap: wrap;
@@ -61,15 +80,17 @@ body {
 .main__texto {
     text-align: justify;
 }
-.texto__nos{
+
+.texto__nos {
     background-color: rgba(0, 0, 0, 0.932);
 }
 
 /* Productos */
-.contenedor__carrito{
+.contenedor__carrito {
     display: flex;
     flex-direction: column;
 }
+
 .card {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     max-width: 300px;
